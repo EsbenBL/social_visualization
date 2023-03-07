@@ -24,6 +24,7 @@ folium = "^0.14.0"
 dash = "^2.8.1"
 powerlaw = "^1.5"
 scikit-learn = "^1.2.1"
+bokeh = "^3.0.3"
 
 [build-system]
 requires = ["poetry-core"]
