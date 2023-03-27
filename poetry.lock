@@ -63,26 +63,24 @@ files = [
 
 [[package]]
 name = "bokeh"
-version = "3.0.3"
+version = "2.4.2"
 description = "Interactive plots and applications in the browser from Python"
 category = "main"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.7"
 files = [
-    {file = "bokeh-3.0.3-py3-none-any.whl", hash = "sha256:d30e4f6220efc824c5da0dcb58138abed0e6a2d524c942409c8ca1098031e374"},
-    {file = "bokeh-3.0.3.tar.gz", hash = "sha256:1c28471ef5e6110ba5bed513137fd26054ebc4454bc768650eaeefc53b898a8a"},
+    {file = "bokeh-2.4.2-py3-none-any.whl", hash = "sha256:2a842d717feeee802e668054277c09054b6f1561557a16dddaf5f7c452f2728c"},
+    {file = "bokeh-2.4.2.tar.gz", hash = "sha256:f0a4b53364ed3b7eb936c5cb1a4f4132369e394c7ae0a8ef420459410958033d"},
 ]
 
 [package.dependencies]
-contourpy = ">=1"
 Jinja2 = ">=2.9"
 numpy = ">=1.11.3"
 packaging = ">=16.8"
-pandas = ">=1.2"
 pillow = ">=7.1.0"
 PyYAML = ">=3.10"
 tornado = ">=5.1"
-xyzservices = ">=2021.09.1"
+typing-extensions = ">=3.10.0"
 
 [[package]]
 name = "branca"
@@ -2284,6 +2282,18 @@ docs = ["myst-parser", "pydata-sphinx-theme", "sphinx"]
 test = ["argcomplete (>=2.0)", "pre-commit", "pytest", "pytest-mock"]
 
 [[package]]
+name = "typing-extensions"
+version = "4.5.0"
+description = "Backported and Experimental Type Hints for Python 3.7+"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "typing_extensions-4.5.0-py3-none-any.whl", hash = "sha256:fb33085c39dd998ac16d1431ebc293a8b3eedd00fd4a32de0ff79002c19511b4"},
+    {file = "typing_extensions-4.5.0.tar.gz", hash = "sha256:5cb5f4a79139d699607b3ef622a1dedafa84e115ab0024e0d9c044a9479ca7cb"},
+]
+
+[[package]]
 name = "urllib3"
 version = "1.26.14"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -2329,18 +2339,6 @@ MarkupSafe = ">=2.1.1"
 
 [package.extras]
 watchdog = ["watchdog"]
-
-[[package]]
-name = "xyzservices"
-version = "2023.2.0"
-description = "Source of XYZ tiles providers"
-category = "main"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "xyzservices-2023.2.0-py3-none-any.whl", hash = "sha256:8d29c4d7c33b0ad63f54744ec90f68c5a65d7c0d7e498b624b7c076c1d926998"},
-    {file = "xyzservices-2023.2.0.tar.gz", hash = "sha256:3342bba410d7941290eed0e58a2e5aadb0f7b97863ec4283b283c406ee723a28"},
-]
 
 [[package]]
 name = "zipp"
@@ -2415,4 +2413,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "775f260c4010371d61aa10a5a9bc204812455d510f297b8a9fa046cec2cc5a1f"
+content-hash = "9096fe1d07286ea2e1084d08d899a81ed99d9ebdaac495caf2fedfe912ae47de"

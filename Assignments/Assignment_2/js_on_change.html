@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+<style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.0.3.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.0.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="dc039615-d842-4fee-9e91-a3f210496b5f" data-root-id="p23643" style="display: contents;"></div>
+  
+    <script type="application/json" id="p23815">
+      {"3e10ad59-220a-4666-aa3e-ff26de37a179":{"version":"3.0.3","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Column","id":"p23643","attributes":{"children":[{"type":"object","name":"Dropdown","id":"p23642","attributes":{"button_type":"warning","js_event_callbacks":{"type":"map","entries":[["menu_item_click",[{"type":"object","name":"CustomJS","id":"p23641","attributes":{"args":{"type":"map","entries":[["source",{"type":"object","name":"ColumnDataSource","id":"p23583","attributes":{"selected":{"type":"object","name":"Selection","id":"p23585","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p23584"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAA"},"shape":[15],"dtype":"int32","order":"little"}],["year",{"type":"ndarray","array":["2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017"],"shape":[15],"dtype":"object","order":"little"}],["Assault",{"type":"ndarray","array":{"type":"bytes","data":"8jMlJpxB5D90VmOEoQ3lP0qrT4TAvuU/JkpK2Bd85T/aT5bApv3kP3TBaLdGcOQ/UEwQGLTW4j/iPBOVS8fiP5qV5EU5y+I/xhjqG8Mp5D9dcEDGWj3hP46RTAMzzOM/770+ydFA5D+evXzP3c7jP3X+/RbRj+Q/"},"shape":[15],"dtype":"float64","order":"little"}],["Burglary",{"type":"ndarray","array":{"type":"bytes","data":"W8xApuu16z8ikDhzbxLsP1LhhhdoB+w/L1TbSQpY7D9J2XXg4ZjrP3X/VbNdxus/rM5+vVoL6z8V8e/shyDqPz5rEDyEMek/DCarrcSr6j8wuGteclTpP3Ji8G+Stek/BwY7YeKk6j8AhOpZMlPqP4Ppf6iRs+o/"},"shape":[15],"dtype":"float64","order":"little"}],["Disorderly Conduct",{"type":"ndarray","array":{"type":"bytes","data":"CWAzkBoZ0j8N34gCk07VP/Hw8PDw8Ng//Pv7+/v72z/gc0uc+j3XPyzZvsYqc80/a3ET5ne1yD9MgwKI4W7RPzwb9Z2N+tI/yEf0X07e0z//4huqjcbUP5HyPZtQjNw/1lLl8jO74D+MGDFixIjhP7T+RTxJjeI/"},"shape":[15],"dtype":"float64","order":"little"}],["Driving Under The Influence",{"type":"ndarray","array":{"type":"bytes","data":"sqc8xFxolT+WRo+oINugPxZlURZlUbY/dNFFF110sT9KimgHQVeaP/qFjbkPMZ4/Pzv+q2kbtj/HvLf4JM6gP8Apygg4Rak/q24CTAfktT+8SL/OKQmwP6rMI/FhnbU/IVaUxkcmsD/j+RBfFHKoP8bLNkCf0p4/"},"shape":[15],"dtype":"float64","order":"little"}],["Drug/Narcotic",{"type":"ndarray","array":{"type":"bytes","data":"4y7gpzKCrj8SvWcSvWe2P2jW6IDntbw/wbnJF08buj+MBIdbv0iwP/31XMWy8bE/293FghlRrT98DbNcOu+7P2Q0CPsxKLo/5Cx6qohTwj/OsOBS2d61P6JooEqUD7U/l1/B0PIruD/wLUsboCa3Pwwnjqt0MLY/"},"shape":[15],"dtype":"float64","order":"little"}],["Drunkenness",{"type":"ndarray","array":{"type":"bytes","data":"UBJBSQQlsT9aN5gin3WzP7LvETlBuMs/1EAwawsnyj9BGGnHCoTBPxWHjL12+cE/SjfzJyNSvz8OTTFt+XnKP0N5DeU1lMc/MzMzMzMzxz+taxBVXJ/QP5MV7K+YEMg/juM4juM4xj+OnuDoCY7OPy6EsoVQttA/"},"shape":[15],"dtype":"float64","order":"little"}],["Larceny/Theft",{"type":"ndarray","array":{"type":"bytes","data":"eFHbZ3mO6z/UQ9AZysPrPymcSlSb3+s/+PJdaCw37D/2F1z5Z53sP8wCahJbWOw/7b9NiCZq7D/VEAoqRmHsPwAS7p7t7+w/g9zQ84rF7T/rB8yYLrjtP+B6iY3HHu4/T5hkHIxw7j92ej9jO5zuPzMIRPwb0O4/"},"shape":[15],"dtype":"float64","order":"little"}],["Prostitution",{"type":"ndarray","array":{"type":"bytes","data":"8BW6gBI0lj8d1EEd1EGdP1paWlpaWqI/87ta3IT5nT83AlLajYCUP4p/HiPykp0/3NxHl5M4nj/KC8UmPsmxP7FRPJP+OKg/WQ6/keXwuz/nOkZxrmO0P5T8hVXqpb0/yWfdYIp8xj9b+smxpZ+8P3m7I4XQwsY/"},"shape":[15],"dtype":"float64","order":"little"}],["Robbery",{"type":"ndarray","array":{"type":"bytes","data":"50vdNQkQ5T9pNP2jwC/pPxAjQQRz8Ok/Cl15twlZ6j+5l1cI0BPqPwYkVGLZOuk/ttDp+4Xp6D8/W6wM34joP8EkUfKlheg/lNXyxggm6j8ajUaj0WjpP6OLLrroouk/Q69t0B7z6T8Yx2glrJ7pP6lTFfCKFOo/"},"shape":[15],"dtype":"float64","order":"little"}],["Stolen Property",{"type":"ndarray","array":{"type":"bytes","data":"eRKZhu1myT8s6eVPW2jQP0422WSTTcY/d2CuHZhrxz/7kHKO3z/CPy1hN7+FgME/zczMzMzMtj8JYToMmZy7PxbQuFvnFcA/BcHzkhypwj++o4H1D82yPxfQMie/JbI/5yPCH1NNuD+TOnc7mAC2P/QUIHlBhLo/"},"shape":[15],"dtype":"float64","order":"little"}],["Trespass",{"type":"ndarray","array":{"type":"bytes","data":"S4SMN1BRyz8AAAAAAADQP6WkpKSkpNQ/QLC5cXbS1D9VVVVVVVXVP2H4IvbhmNE/XkN5DeU1zD+nMxZzOmPRP+9E/ziiktI/rzC4Fnjo1T+DH0/ovpLSPxYuiDcJ6Nc/Qa9nSdDr2T/RJjKCB4XbP8goAIk8XNs/"},"shape":[15],"dtype":"float64","order":"little"}],["Vandalism",{"type":"ndarray","array":{"type":"bytes","data":"3YvE4HmE7D9nqn78h57sP/rGtAkoRe0/K4sz2j1s7T/i3gbCpKfsP/i1VaXgWuw/HQsXCkRO7D9wyqtMz/7rP/2WSor98+s/Fs/niD+b7D9xI65YEYHrP2yanpil2es/T/AA9cnm6z+TVKn0hkXsP5RTfWZbnuw/"},"shape":[15],"dtype":"float64","order":"little"}],["Vehicle Theft",{"type":"ndarray","array":{"type":"bytes","data":"vKrngDdM7T+JNG2Os4LtP+VOcwrLZu0/AlNTvH8o7T+jdCZqrGntP5qIhHQlXu0/3CKgB6tp7T9LP3Ma3HntP8fyomNmce0/fAPKxJXu7T/th02Qj1ztPzrqiyMebO0/5+pxy6K27T/82LE2VSjtPyQYtvZW/uw/"},"shape":[15],"dtype":"float64","order":"little"}],["Weapon Laws",{"type":"ndarray","array":{"type":"bytes","data":"M88qaowU2D/vFHCdZeXWPwql+R8nI9c/+Cs7kO9X1j+YQTWhsGnWPxyX20Rfo9Y/Qi6fAl4G0j/8e9KmYrPLPw6myGfdYMo/naC6h6jXzD/fzVq5YwPHPyb7GYe+3s8/oeRO0cIZ0D9pOpN7AGvRP/nj1uUdcNQ/"},"shape":[15],"dtype":"float64","order":"little"}]]}}}],["p",{"type":"object","name":"Figure","id":"p23587","attributes":{"width":1200,"x_range":{"type":"object","name":"FactorRange","id":"p23586","attributes":{"factors":["2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p23589"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p23600"},"y_scale":{"type":"object","name":"LinearScale","id":"p23602"},"title":{"type":"object","name":"Title","id":"p23590","attributes":{"text":"Bokeh fucking shit"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p23638","attributes":{"data_source":{"id":"p23583"},"view":{"type":"object","name":"CDSView","id":"p23639","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p23640"}}},"glyph":{"type":"object","name":"VBar","id":"p23635","attributes":{"x":{"type":"field","field":"year"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"Trespass"},"line_color":{"type":"value","value":"#3D4D55"},"line_alpha":{"type":"value","value":0.8},"fill_color":{"type":"value","value":"#3D4D55"},"fill_alpha":{"type":"value","value":0.8},"hatch_color":{"type":"value","value":"#3D4D55"},"hatch_alpha":{"type":"value","value":0.8}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p23636","attributes":{"x":{"type":"field","field":"year"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"Trespass"},"line_color":{"type":"value","value":"#3D4D55"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#3D4D55"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#3D4D55"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p23637","attributes":{"x":{"type":"field","field":"year"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"Trespass"},"line_color":{"type":"value","value":"#3D4D55"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#3D4D55"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#3D4D55"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p23594","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p23617"},{"type":"object","name":"WheelZoomTool","id":"p23618"},{"type":"object","name":"BoxZoomTool","id":"p23619","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p23620","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p23621"},{"type":"object","name":"ResetTool","id":"p23622"},{"type":"object","name":"HelpTool","id":"p23623"}]}},"toolbar_location":"above","left":[{"type":"object","name":"LinearAxis","id":"p23610","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p23611","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p23613"},"axis_label":"Share of Unresolved Reports","major_label_policy":{"type":"object","name":"AllLabels","id":"p23612"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p23604","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p23605"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p23607"},"axis_label":"year","major_label_policy":{"type":"object","name":"AllLabels","id":"p23606"}}}],"center":[{"type":"object","name":"Grid","id":"p23609","attributes":{"axis":{"id":"p23604"}}},{"type":"object","name":"Grid","id":"p23616","attributes":{"dimension":1,"axis":{"id":"p23610"}}}]}}]]},"code":"\n    var crime = cb_obj.item;\n    var new_data = source.data[crime];\n    p.vbar.top = new_data;\n    focuscrimes[0] = crime;\n    p.change.emit();\n"}}]]]},"label":"Dropdown button","menu":[["Trespass","Trespass"],["Burglary","Burglary"],["Driving Under The Influence","Driving Under The Influence"],["Stolen Property","Stolen Property"],["Disorderly Conduct","Disorderly Conduct"],["Prostitution","Prostitution"],["Weapon Laws","Weapon Laws"],["Larceny/Theft","Larceny/Theft"],["Robbery","Robbery"],["Assault","Assault"],["Drunkenness","Drunkenness"],["Vandalism","Vandalism"],["Drug/Narcotic","Drug/Narcotic"],["Vehicle Theft","Vehicle Theft"]]}},{"id":"p23587"}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p23815').textContent;
+              const render_items = [{"docid":"3e10ad59-220a-4666-aa3e-ff26de37a179","roots":{"p23643":"dc039615-d842-4fee-9e91-a3f210496b5f"},"root_ids":["p23643"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
