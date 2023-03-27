@@ -1,2 +1,0 @@
-- Alpha på geo-map
-- Hover på Bokeh
