@@ -2198,6 +2198,21 @@ files = [
 ]
 
 [[package]]
+name = "sodapy"
+version = "2.2.0"
+description = "Python library for the Socrata Open Data API"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "sodapy-2.2.0-py2.py3-none-any.whl", hash = "sha256:18f13bdec1891f3430ea138354d4aa4a1adfb77893a2f0d577601024221157c4"},
+    {file = "sodapy-2.2.0.tar.gz", hash = "sha256:58af376d3bb0dc3a1edc7c8cf9938f5de8f558b35e240438dd83647ac3621981"},
+]
+
+[package.dependencies]
+requests = ">=2.28.1"
+
+[[package]]
 name = "stack-data"
 version = "0.6.2"
 description = "Extract data from python stack frames and tracebacks for informative displays"
@@ -2413,4 +2428,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "9096fe1d07286ea2e1084d08d899a81ed99d9ebdaac495caf2fedfe912ae47de"
+content-hash = "6384e8caeebfae0adb5c4addda2ffbd9301e5ffef90cf19a5af79c1a870036e4"

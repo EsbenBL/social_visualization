@@ -25,6 +25,7 @@ dash = "^2.8.1"
 powerlaw = "^1.5"
 scikit-learn = "^1.2.1"
 bokeh = "2.4.2"
+sodapy = "^2.2.0"
 
 [build-system]
 requires = ["poetry-core"]
